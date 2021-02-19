@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="regionModel"
+            type="com.daws.projects.codamation.models.RegionModel" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/roundrect_all_fill_white_outline_white"
+        android:backgroundTint="@{regionModel.selected ? @color/softPrimary : @color/white}"
+        tools:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitosans_bold"
+            android:textColor="@{regionModel.selected ? @color/colorPrimary : @color/textGrey}"
+            android:textSize="@dimen/_12ssp"
+            android:text="@{regionModel.regionName}"
+            tools:text="DKI JAKARTA"
+            tools:textColor="@color/textGrey"/>
+    </LinearLayout>
+</layout>

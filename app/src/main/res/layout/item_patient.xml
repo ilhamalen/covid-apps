@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="com.daws.projects.codamation.helpers.ValidationHelper"/>
+        <variable
+            name="patientModel"
+            type="com.daws.projects.codamation.models.PatientModel" />
+    </data>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundrect_all_fill_white_outline_white"
+        android:padding="@dimen/_10sdp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:setupGenderIcon="@{patientModel.gender}"
+            tools:srcCompat="@drawable/ic_female"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunitosans_bold"
+                android:textColor="@color/pending"
+                app:setupStatusTextColor="@{patientModel.status}"
+                tools:text="Positif"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:textColor="@color/textDarkerGrey"
+                android:textSize="@dimen/_12ssp"
+                android:text="@{patientModel.regionName}"
+                tools:text="DKI Jakarta"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitosans_bold"
+            android:textColor="@color/textGrey"
+            android:text="@{@string/tag_age(patientModel.age)}"
+            tools:text="33Tahun"/>
+    </LinearLayout>
+</layout>

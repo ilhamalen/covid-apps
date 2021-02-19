@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "571957330344",
+    "firebase_url": "https://codamation.firebaseio.com",
+    "project_id": "codamation",
+    "storage_bucket": "codamation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571957330344:android:a914abb53c1efb304edd9d",
+        "android_client_info": {
+          "package_name": "com.daws.projects.codamation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571957330344-6q62pjimu392904ecjq7go0d0vl1sfru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC83eKwxkwpewZntciYDoP5q9DeDSkQDiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571957330344-6q62pjimu392904ecjq7go0d0vl1sfru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id" : 1,
+    "title" : "Virus Corona - Gejala, Penyebab Dan Cara Mengobatinya",
+    "content" : "Virus Corona atau severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) adalah virus yang menyerang sistem pernapasan. Penyakit karena infeksi virus ini disebut COVID-19. Virus Corona bisa menyebabkan gangguan pada sistem pernapasan, pneumonia akut, sampai kematian.",
+    "url" : "https://www.alodokter.com/virus-corona",
+    "date" : "11:49, 17 Mar 2020",
+    "image" : "snip1",
+    "author" : "dr. Merry Dame Cristy Pane",
+    "company" : "ALODOKTER"
+  },
+  {
+    "id" : 2,
+    "title" : "Daftar Rumah Sakit Rujukan Tiap Provinsi",
+    "content": "Bagi Anda yang khawatir terjangkit virus Corona atau memiliki risiko terpapar COVID-19, Anda dapat memeriksakan diri ke rumah sakit (RS) rujukan yang telah disiapkan pemerintah. Sejumlah pemerintah daerah juga menyiapkan nomor telepon layanan khusus bagi masyarakat yang ingin mendapatkan informasi, atau memberi laporan terkait wabah virus Corona.",
+    "url" : "https://news.detik.com/berita/d-4942353/daftar-rumah-sakit-rujukan-covid-19-seluruh-indonesia",
+    "date" : "10:00, 22 Mar 2020",
+    "image" : "snip2",
+    "author" : "Pasti Liberti Mappapa ",
+    "company" : "detikNews"
+  },
+  {
+    "id" : 3,
+    "title" : "Ujian Nasional Ditiadakan Karena Corona Covid-19",
+    "content" : "Pemerintah memutuskan meniadakan pelaksanaan Ujian Nasional (UN) 2020. Keputusan ini diambil setelah presiden Joko Widodo dan Menteri Pendidikan dan Kebudayaan (Mendikbud) Nadiem Makarim menggelar rapat terbatas lewat video telekonferensi",
+      "url" : "https://www.liputan6.com/news/read/4211905/headline-ujian-nasional-ditiadakan-karena-corona-covid-19-bagaimana-persyaratan-kelulusan-siswa",
+    "date" : "00:02, 27 Mar 2020",
+    "image" : "snip3",
+    "author" : "Yopi Makdori",
+    "company" : "Liputan6"
+  },
+  {
+    "id" : 7,
+    "title" : "Corona Mewabah, Jangan Mudik Dulu Kalau Masih Sayang Keluarga",
+    "content" : "Bupati Sragen Kusdinar Untung Yuni Sukowati mengimbau kepada perantau asal Sragen yang masih di perantauan jangan mudik dulu apabila masih sayang dengan keluarga di rumah. Mereka diminta menahan diri untuk tidak pulang dulu sampai wabah virus corona berakhir. Bupati menyampaikan imbauan karena pemudik yang masuk Sragen lewat angkutan massal mencapai 60-70 orang per hari.",
+    "url" : "https://news.okezone.com/read/2020/04/03/512/2193907/corona-mewabah-jangan-mudik-dulu-kalau-masih-sayang-keluarga",
+    "date" : "23:29, 3 Apr 2020",
+    "image" : "snip7",
+    "author" : "Agregasi Solopos",
+    "company" : "OKENEWS"
+  },
+  {
+    "id" : 6,
+    "title" : "Pemerintah Tak Larang Mudik, Kapasitas Kendaraan Dibatasi 50%",
+    "content" : "Pemerintah bakal memberlakukan kebijakan ketat untuk masyarakat yang tetap mudik di tengah penyebaran virus corona. Salah satunya, mengimplementasikan jaga jarak fisik dengan mengurangi kapasitas penumpang, baik kendaraan umum maupun pribadi. Selain itu, pemudik juga diharuskan melakukan isolasi mandiri selama 14 hari setelah kedatangan di kota kelahirannya dan 14 hari setelah kembali ke Jakarta atau kota lain tempat mereka kembali.",
+    "url" : "https://katadata.co.id/berita/2020/04/05/pemerintah-tak-larang-mudik-kapasitas-kendaraan-dibatasi-50",
+    "date" : "13:33, 5 Apr 2020",
+    "image" : "snip6",
+    "author" : "Agustiyanti",
+    "company" : "katadata.co.id"
+  },
+  {
+    "id" : 4,
+    "title" : "Coronavirus disease (COVID-19) advice for public",
+    "content" : "Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority. Most people who become infected experience mild illness and recover, but it can be more severe for others. Take care of your health and protect others by doing the following:",
+    "url" : "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public",
+    "date" : "18:00, 18 Mar 2020",
+    "image" : "snip4",
+    "author" : "Admin",
+    "company" : "World Health Organization"
+  },
+  {
+    "id" : 5,
+    "title" : "Coronavirus: A visual guide to the pandemic",
+    "content" : "There are now more than 940,000 confirmed cases of coronavirus in 180 countries and at least 47,500 people have died. The United States now has more confirmed cases than any other single country, including China where the disease emerged in December 2019.",
+    "url" : "https://www.bbc.com/news/world-51235105",
+    "date" : "17:13, 26 Mar 2020",
+    "image" : "snip5",
+    "author" : "The Visual and Data Journalism Team",
+    "company" : "BBC News"
+  },
+  {
+    "id" : 8,
+    "title" : "Coronavirus: The Hammer and the Dance",
+    "content" : "Within a week, countries around the world have gone from: “This coronavirus thing is not a big deal” to declaring the state of emergency. Yet many countries are still not doing much. Why? Every country is asking the same question: How should we respond? The answer is not obvious to them.",
+    "url" : "https://medium.com/@tomaspueyo/coronavirus-the-hammer-and-the-dance-be9337092b56",
+    "date" : "20 Mar 2020",
+    "image" : "snip8",
+    "author" : "Tomas Pueyo",
+    "company" : "Medium"
+  },
+  {
+    "id" : 9,
+    "title" : "Timeline: How The New Coronavirus Spread",
+    "content" : "The World Health Organization (WHO) has declared a pandemic over a new coronavirus which causes an illness known as COVID-19 that has spread to at least 180 countries and territories. The disease has killed more than 64,700 people and infected more than 1.2 million, according to data compiled by Johns Hopkins University.",
+    "url" : "https://www.aljazeera.com/news/2020/01/timeline-china-coronavirus-spread-200126061554884.html",
+    "date" : "14:42, 5 Apr 2020",
+    "image" : "snip9",
+    "author" : "Al Jazeera And News Agencies",
+    "company" : "ALJAZEERA"
+  }
+]

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="com.daws.projects.codamation.helpers.ValidationHelper"/>
+        <variable
+            name="icon"
+            type="int" />
+        <variable
+            name="info"
+            type="String" />
+        <variable
+            name="subInfo"
+            type="String" />
+    </data>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:padding="@dimen/_10sdp">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/roundrect_all_fill_grey_outline_grey"
+            android:padding="@dimen/_15sdp"
+            android:gravity="center_vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@{icon}"
+                    tools:src="@drawable/ic_cancel_white"/>
+                <TextView
+                    android:id="@+id/srcinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    android:text="@{info}"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    tools:text="Berhasil disimpan"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10ssp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="@{subInfo}"
+                tools:text="123123123111"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

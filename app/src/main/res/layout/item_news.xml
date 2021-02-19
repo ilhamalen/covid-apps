@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="newsModel"
+            type="com.daws.projects.codamation.models.NewsModel" />
+    </data>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/roundrect_all_fill_white_outline_white">
+
+        <com.daws.projects.codamation.utils.components.RoundedImageView
+            android:id="@+id/image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@{newsModel.image}"
+            tools:src="@drawable/snip5"/>
+
+        <LinearLayout
+            android:id="@+id/news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/_8sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textDarkerGrey"
+                android:fontFamily="@font/nunitosans_bold"
+                android:textSize="@dimen/_10ssp"
+                android:text="@{newsModel.title}"
+                tools:text="Dirjen Perkeretaapian Kemenhub Positif Corona, Jalani Karantina"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:textColor="@color/textGrey"
+                android:textSize="@dimen/_9ssp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:text="@{newsModel.content}"
+                tools:text="Satu lagi pejabat Kementerian Perhubungan (Kemenhub) terjangkit virus Corona. Setelah sebelumnya Menteri Perhubungan Budi Karya Sumadi, kini Direktur Jenderal Perkeretaapian Kemenhub Zulfikri dinyatakan positif Corona"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_date"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:textSize="@dimen/_7sdp"
+                    android:text="@{newsModel.date}"
+                    tools:text="19:30, 11 Jan 2020"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

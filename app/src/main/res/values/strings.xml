@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Codamation</string>
+
+    <string name="warning_press_once_to_exit">Klik kembali sekali lagi untuk keluar</string>
+    <string name="title_see_detail">Lihat Detail</string>
+    <string name="title_worldwide">Seluruh Dunia</string>
+    <string name="title_indonesia">Indonesia</string>
+    <string name="title_corona_case_data">Data Kasus Corona</string>
+    <string name="title_please_wait">Mohon Tunggu</string>
+    <string name="title_news">Berita</string>
+    <string name="title_media">Media</string>
+    <string name="title_see_all_info">Lihat Semua Info</string>
+    <string name="title_history_case_local">Rekam Kasus Corona Indonesia</string>
+    <string name="title_graphic_daily_action">Grafik Penanganan Kasus Baru</string>
+    <string name="title_graphic_daily_growth">Grafik Pertumbuhan Kasus Baru</string>
+    <string name="title_local_growth">Pertumbuhan Corona Indonesia</string>
+
+    <string name="tag_day_of">Hari ke : %1$s</string>
+    <string name="tag_percentage">%1$.1f%%</string>
+    <string name="tag_periode_date">Periode %1$s - %2$s</string>
+    <string name="tag_age">%1$d Thn</string>
+    <string name="tag_last_update">Terakhir diupdate %1$s</string>
+    <string name="tag_case">%1$s Kasus Baru</string>
+
+    <string name="error_play_video">Error initializing YouTube player: %1$s</string>
+</resources>
